@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--Meu primeiro site funcional, com calculo de IMC e página de refresh. Feito por Alan Poveda 08.09.2020-->>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script data-ad-client="ca-pub-4503637477921412" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>Calculo IMC 🤸‍♀️</title>
+</head>
+<body>
+    <div id="comeco">
+        <h1>Calcule seu IMC 💪</h1>
+    </div>
+    <div id="pesoDiv">
+        <h3>Coloque seu peso 🧪 </h3>
+        <input type="number" id="peso" >
+    </div>
+    <div id="alturaDiv">
+        <h3>Coloque sua Altura 📏</h3>
+        <input type="number" id="altura">
+    </div>
+    
+    <input type="button" id="botao" value="Calcular 👨‍🔬" onclick="calculoImc()">
+    <div id="resultado">
+        <h2>Resultado 🤔</h2>
+        
+        
+
+    </div>
+    <input type="button" id="botaoReload" value="Fazer novamente ♻" onclick="fazerNovamente()">
+    <script src="calculo.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+body {
+    background-color: #3D7167;
+    color: white;
+    text-align: center;
+    font: normal 20pt Arial;
+}
+input#botao{
+    background-color: #1B2631; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20pt;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+input#botaoReload{
+    border-radius: 12px;
+    background-color: #1B2631; 
+    color: white;
+
+
+}
+div#comeco{
+    margin-bottom: 20px;
+}
+
+input#peso{
+    border: 3px solid #843B8A;
+    padding: 12px 20px
+    
+}
+input#altura{
+    border: 3px solid #843B8A;
+    padding: 12px 20px
+    
+}
+div#resultado{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
